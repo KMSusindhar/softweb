@@ -107,7 +107,7 @@ software.html
     }
     .box{
             text-align: center;
-            height: 200px;
+            height: 300px;
             width: 400px;margin-left: 100px;
         }
         .edge{
@@ -119,9 +119,9 @@ software.html
             border-style:dotted ;
             border-radius: 10px;
             border-color: rgb(172, 172, 172);
-            width: 200px;
-            min-height: 10px;
-            font-size: 10px;
+            width: 400px;
+            min-height: 200px;
+            font-size: 20px;
             background-color:rgb(141, 146, 146);
               }
               p{
@@ -132,17 +132,18 @@ software.html
                 font-weight: bold;
               }
               input{
-                width: 50px;
+                width: 200px;
+                height: 30px;
               }
 
   </style>
 </head>
-    <body bgcolor="red" background="hh.jpg" style="background-size: cover;">
+    <body bgcolor="red" background="bage.jpg" style="background-size: cover;">
     <header>
         <nav>
           <div class="container">
             <img src="ps2.png" height="50px" width="80px">
-            <h1>SUSI ENTERTAINMENT</h1>
+            <h1>SUSIDEVELOPED</h1>
           </div>
           <ul>
             <li><a href="software.html">Home</a></li>
@@ -188,7 +189,7 @@ software.html
     </div>
 
   <div class="home">
-    <h1   style="color:rgb(255, 255, 255);"><br>"Game developers know that people have more fun when they're in large groups. They feel more fired up when the challenges are more epic"</h1>
+    <h1   style="color:rgb(255, 255, 255);"><br>"Automation is no longer just a problem for those working in manufacturing. Physical labor was replaced by robots; mental labor is going to be replaced by AI and software"</h1>
 
 
   <footer>
@@ -196,7 +197,7 @@ software.html
   </footer>
 </body>
 </html>
- 
+
 product.html
 
 <html>
@@ -336,7 +337,7 @@ product.html
         <nav>
           <div class="container">
             <img src="ps2.png" height="50px" width="80px">
-            <h1>SUSI ENTERTAINMENT</h1>
+            <h1>SUSIDEVELOPED</h1>
           </div>
           <ul>
             <li><a href="software.html">Home</a></li>
@@ -349,245 +350,39 @@ product.html
       <h1 align="center">Products</h1>
       <div class="container1">
         <div class="product">
-          <img src="need for speed.jpg" alt="Product 1">
+          <img src="py.jpg" alt="Product 1">
           <div class="product-info">
-            <div class="product-name">Need for speed</div>
-            <div class="product-description">The open-world action in Need for Speed™ Most Wanted gives you the freedom to drive your way.<b>1 User, 1 Year</b></div>
-            <div class="product-price">Rs.800</div>
-            <button class="buy">Buy Now</button>
+            <div class="product-name">PYTHON</div>
+            <div class="product-description">Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</b></div>
+
 
           </div>
         </div>
         <div class="product">
-          <img src="god of war.jpg" alt="Product 2">
+          <img src="c.jpg" alt="Product 2">
           <div class="product-info">
-            <div class="product-name">God of War</div>
-            <div class="product-description">Based on ancient mythologies, the series' plot follows Kratos, a Spartan warrior who becomes the God of War and comes into conflict with various mythological pantheons.</div>
-            <div class="product-price">Rs.2900</div>
-            <button class="buy">Buy Now</button>
+            <div class="product-name">C PROGRAMMING</div>
+            <div class="product-description">C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential.</div>
 
           </div>
         </div>
     
         <div class="product" bgcolor="white">
-          <img src="uncharted.jpg" alt="Product 3"> 
+          <img src="sql.jpg" alt="Product 3"> 
           <div class="product-info">
-            <div class="product-name">Uncharted Thief's End</div>
-            <div class="product-description"> A Thief's End takes players on a journey around the globe, through jungle isles, far-flung cities and snow-capped peaks on the search for Avery's </div>
-            <div class="product-price">Rs.2500</div>
-            <button class="buy">Buy Now</button>
+            <div class="product-name">SQL</div>
+            <div class="product-description">Structured Query Language is a domain-specific language used to manage data, especially in a relational database management system. </div>
+
 
           </div>
         </div>
     
         <div class="product">
-          <img src="gtav.jpg" alt="Product 4">
+          <img src="ph.jpg" alt="Product 4">
           <div class="product-info">
-            <div class="product-name">GTA-V</div>
-            <div class="product-description">Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective.</div>
-            <div class="product-price">Rs.2000</div>
-            <button class="buy">Buy Now</button>
-
-          </div>
-        </div>
-      </div>
-
-      <footer>
-        <p>&copy; 2024 SUSI All rights reserved.</p>
-      </footer>
-</body>
-</html>
-
-sales.html
-
-<html>
-<head>
-    <title>Products</title>
-    <style>
-        
-        body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-          color: white;
-        }
-    
-        header {
-          background-color: #333;
-          color: #fff;
-          padding: 10px 0;
-        }
-    
-        nav {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0 20px;
-        }
-    
-        nav .container {
-          display: flex;
-          align-items: center;
-        }
-    
-        nav img {
-          margin-right: 10px;
-        }
-    
-        nav h1 {
-          margin: 0;
-        }
-    
-        nav ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-        }
-    
-        nav ul li {
-          display: inline;
-        }
-    
-        nav ul li a {
-          text-decoration: none;
-          color: #fff;
-          margin: 0 15px;
-        }
-    
-        nav ul li a:hover {
-          color: #ffd700; 
-        }
-    
-        section {
-          padding: 50px;
-        }
-    
-        footer {
-          background-color: #333;
-          color: #fff;
-          text-align: center;
-          padding: 20px 0;
-          position: fixed;
-          bottom: 0;
-          width: 100%;
-        }
-        .container1 {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    .product {
-      text-align: center;
-      margin-bottom: 50px;
-      flex-basis: calc(25% - 20px); 
-      border: 5px solid #ccc; 
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    .product img {
-      max-width: 100%;
-      height: 200px; 
-      width: 200px; 
-      object-fit: cover; 
-      margin-bottom: 10px;
-    }
-
-    .product-info {
-      margin-top: 20px;
-    }
-
-    .product-name {
-      font-weight: bold;
-      font-size: 18px;
-      color: black;
-    }
-
-    .product-description {
-      font-size: 16px;
-      margin-top: 10px;
-      color: black;
-    }
-
-    .product-price {
-      font-size: 16px;
-      margin-top: 10px;
-      color: rgb(208, 255, 0); 
-    }
-    .buy {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-              h1{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-weight: bold;
-              }
-      </style>
-</head>
-<body bgcolor="blue" background="sa.jbg" style="background-size: cover;"> 
-    <header>
-        <nav>
-          <div class="container">
-            <img src="ps2.png" height="50px" width="80px">
-            <h1>SUSI ENTERTAINMENT</h1>
-          </div>
-          <ul>
-            <li><a href="software.html">Home</a></li>
-            <li><a href="product.html">Products</a></li>
-            <li><a href="member.html">Members</a></li>
-            <li><a href="sales.html">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
-      <h1 align="center">Products</h1>
-      <div class="container1">
-        <div class="product">
-          <img src="need for speed.jpg" alt="Product 1">
-          <div class="product-info">
-            <div class="product-name">Need for speed</div>
-            <div class="product-description">The open-world action in Need for Speed™ Most Wanted gives you the freedom to drive your way.<b>1 User, 1 Year</b></div>
-            <div class="product-price">Rs.800</div>
-            <button class="buy">Buy Now</button>
-
-          </div>
-        </div>
-        <div class="product">
-          <img src="god of war.jpg" alt="Product 2">
-          <div class="product-info">
-            <div class="product-name">God of War</div>
-            <div class="product-description">Based on ancient mythologies, the series' plot follows Kratos, a Spartan warrior who becomes the God of War and comes into conflict with various mythological pantheons.</div>
-            <div class="product-price">Rs.2900</div>
-            <button class="buy">Buy Now</button>
-
-          </div>
-        </div>
-    
-        <div class="product" bgcolor="white">
-          <img src="uncharted.jpg" alt="Product 3"> 
-          <div class="product-info">
-            <div class="product-name">Uncharted Thief's End</div>
-            <div class="product-description"> A Thief's End takes players on a journey around the globe, through jungle isles, far-flung cities and snow-capped peaks on the search for Avery's </div>
-            <div class="product-price">Rs.2500</div>
-            <button class="buy">Buy Now</button>
-
-          </div>
-        </div>
-    
-        <div class="product">
-          <img src="gtav.jpg" alt="Product 4">
-          <div class="product-info">
-            <div class="product-name">GTA-V</div>
-            <div class="product-description">Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective.</div>
-            <div class="product-price">Rs.2000</div>
-            <button class="buy">Buy Now</button>
+            <div class="product-name">ADOBE PHOTOSHOP</div>
+            <div class="product-description">Adobe Photoshop is a raster graphics editor developed and published by Adobe for Windows and macOS. It was originally created in 1987 by Thomas and John Knoll</div>
+            
 
           </div>
         </div>
@@ -730,7 +525,7 @@ sales.html
         <nav>
           <div class="container">
             <img src="ps2.png" height="50px" width="80px">
-            <h1>SUSI ENTERTAINMENT</h1>
+            <h1>SUSIDEVELOPED</h1>
           </div>
           <ul>
             <li><a href="software.html">Home</a></li>
@@ -761,8 +556,8 @@ sales.html
 </body>
 </html>
 
-
 member.html
+
 <html>
 <head>
     <meta charset="UTF-8">
@@ -941,10 +736,10 @@ member.html
 ```
 
 ## OUTPUT:
+![alt text](<susin/susin/Screenshot 2024-05-09 143125.png>)
+![alt text](<susin/susin/Screenshot 2024-05-09 143139.png>)
+![alt text](<susin/susin/Screenshot 2024-05-09 143310.png>)
+![alt text](<susin/susin/Screenshot 2024-05-09 143320.png>)
 
-![alt text](<susin/Screenshot 2024-05-07 222809.png>)
-![alt text](<susin/Screenshot 2024-05-07 222824.png>)
-![alt text](<susin/Screenshot 2024-05-07 222842.png>)
-![alt text](<susin/Screenshot 2024-05-07 222858.png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
